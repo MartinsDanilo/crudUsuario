@@ -1,0 +1,8 @@
+{
+  "name": "crudUsuario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MartinsDanilo/crudUsuario.git",
+  "author": "Danilo Martins <danilo.santos.martins2018@gmail.com>",
+  "license": "MIT"
+}
