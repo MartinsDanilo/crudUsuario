@@ -1,0 +1,16 @@
+{
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 14,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Dracula",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 14,
+  "editor.renderLineHighlight": "gutter",
+  "eslint.validate": ["language:javascript"]
+}
