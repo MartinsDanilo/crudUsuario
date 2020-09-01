@@ -21,10 +21,7 @@ class UsuarioController {
       });
     }
 
-    const {
-      email
-    } = req.body;
-
+    const { email } = req.body;
 
     const usuarioExistente = await Usuario.findOne({
       email,
@@ -40,24 +37,16 @@ class UsuarioController {
       const usuario = await Usuario.create(req.body);
 
       return res.json(usuario);
-
     } catch (err) {
       return res.status(500).json({
         error: "erro: ",
-        err
-      })
+        err,
+      });
     }
-
-
-
-
   }
 
   async show(req, res) {
-
-    const {
-      email
-    } = req.body;
+    const { email } = req.body;
 
     const emailHash = await bcrypt.hash(email, 8);
 
@@ -66,10 +55,10 @@ class UsuarioController {
     debugger;
 
     const usuario = await Usuario.findOne({
-      emailHash
+      emailHash,
     });
 
-    return res.json(usuario)
+    return res.json(usuario);
 
     // const usuario = await Usuario.findOne({
     //   email
